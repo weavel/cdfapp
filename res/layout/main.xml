@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@drawable/background"
+   android:layout_width="fill_parent" 
+   android:layout_height="fill_parent" 
+   android:layout_gravity="fill">
+<!--
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainScroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context=".CafedeFeestneusActivity" >
+-->
+
+	<RelativeLayout
+	    android:id="@+id/cafe_footer"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+		>
+        <TextView
+            android:id="@+id/cafeLinkTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/urlText"
+            android:textColor="#0000FF"
+            android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true"
+			/>
+		<ImageView
+		    android:id="@+id/FacebookLogo"
+		    android:layout_width="64dp"
+		    android:layout_height="64dp"
+		    android:contentDescription="@string/imgDesc"
+		    android:src="@drawable/f_logo"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+			/>
+        <ImageView
+            android:id="@+id/TwitterLogo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:contentDescription="@string/imgDesc"
+            android:src="@drawable/twitter_bird_light_bgs"
+            android:layout_toLeftOf="@+id/FacebookLogo"
+            android:layout_alignParentBottom="true"
+			/>
+	</RelativeLayout>
+	<ScrollView
+	    android:id="@+id/mainScroller"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/cafe_footer"
+	    android:layout_marginBottom="64dp"
+	    >
+	    <RelativeLayout
+	        android:id="@+id/cafe_mainMenu"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			>
+
+        <ImageView
+            android:id="@+id/JokieLogo"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/imgDesc"
+            android:src="@drawable/jokie_logoklein" />
+
+        <TextView
+            android:id="@+id/welcomeTXT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/Welcome"
+            android:textColor="#444444"
+            android:layout_below="@+id/JokieLogo"
+			/>
+
+        <Button
+            android:id="@+id/forumBTN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/BtnHomeForum"
+            android:textColor="#444444"
+            android:visibility="gone"
+            android:layout_below="@+id/welcomeTXT"
+            />
+
+        <Button
+            android:id="@+id/wieinParkBTN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/BtnHomeWieInPark"
+            android:textColor="#444444"
+            android:layout_below="@+id/forumBTN"
+			/>
+
+        <Button
+            android:id="@+id/kenJeKroniekBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/BtnHomeKroniek"
+            android:textColor="#444444"
+            android:layout_below="@+id/wieinParkBTN"
+			/>
+
+        <Button
+            android:id="@+id/profileBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/BtnProfile"
+            android:textColor="#444444"
+            android:layout_below="@+id/kenJeKroniekBtn"
+			/>
+        <!--
+			<TextView
+			    android:id="@+id/creditsLinkTXT"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="10dp"
+			    android:gravity="right"
+			    android:text="@string/creditsLnkText"
+			    android:textColor="#0000FF" />
+        -->
+		</RelativeLayout>
+	</ScrollView>
+	<!--
+	        <ImageView
+	            android:id="@+id/TwitterLogo"
+	            android:layout_width="64dp"
+	            android:layout_height="64dp"
+	            android:contentDescription="@string/imgDesc"
+	            android:src="@drawable/twitter_bird_light_bgs"
+	            android:layout_toLeftOf="@+id/FacebookLogo"
+				android:layout_alignParentBottom="true"
+				/>
+	</ScrollView>
+	 -->
+</RelativeLayout>

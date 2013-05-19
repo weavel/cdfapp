@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainScroller"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	>
+
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<TextView
+			    android:id="@+id/wieInParkFormTXT"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/WelcomeWieinParkForm"
+				android:textColor="#444444"
+				android:layout_margin="8dp"
+				/>
+
+			<Button
+				android:id="@+id/backBTN"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/BtnBack"
+				android:textColor="#444444"
+				android:layout_margin="8dp"
+				android:layout_marginTop="0dp"
+				/>
+
+			<RelativeLayout 
+				android:id="@+id/LinearLayout01"
+				android:orientation="horizontal" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				>
+
+				<Button
+					android:id="@+id/prevBtn"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/BtnPrevMonth"
+					android:textColor="#444444"
+					android:layout_marginRight="10dp"
+					/>
+	
+				<TextView
+					android:id="@+id/dateTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="#444444"
+					android:textSize="18dp"
+					android:layout_toRightOf="@+id/prevBtn"
+					android:layout_marginRight="10dp"
+					android:layout_marginTop="10dp"
+					/>
+	  
+				<Button
+					android:id="@+id/nextBtn"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/BtnNextMonth"
+					android:textColor="#444444"
+					android:layout_toRightOf="@+id/dateTxt"
+					/>
+
+			</RelativeLayout>
+
+			<ImageView
+				android:id="@+id/calenderTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:contentDescription="@string/imgDesc"
+				android:src="@drawable/calendertitle"
+				/>
+
+			<ImageView
+				android:id="@+id/calenderView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:contentDescription="@string/imgDesc"
+				/>
+		</LinearLayout>
+</ScrollView>

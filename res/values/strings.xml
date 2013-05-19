@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welkom bij Café de Feestneus</string>
+    <string name="app_name">Café de Feestneus</string>
+    <string name="app_desc">De App van Café de Feestneus</string>
+    <string name="Welcome">Welkom in het Café.</string>
+    <string name="BtnHomeForum">Forum</string>
+    <string name="BtnHomeWieInPark">Wie is er vandaag in het Park?</string>
+    <string name="BtnHomeKroniek">Ken je Kroniek Meeting</string>
+    <string name="WelcomeForum">Welkom op het forum</string>
+    <string name="BtnBack">Terug</string>
+    <string name="WelcomeWieinPark">Wie is er in de Efteling?</string>
+    <string name="WelcomeWieinParkDayAfterTomorrow">Overmorgen</string>
+    <string name="WelcomeWieinParkTomorrow">Morgen</string>
+    <string name="WelcomeWieinParkToday">Vandaag</string>
+    <string name="BtnHomeLogin">Login</string>
+    <string name="LoginDesc">Welkom in de Android App van Café de Feestneus. Log hier in met je forumaccount van www.cafedefeestneus.nl</string>
+    <string name="BtnLogin">Login</string>
+    <string name="BtnCancel">Annuleren</string>
+    <string name="WieinParkBezoek">Mijn bezoekjes beheren</string>
+    <string name="WelcomeWieinParkForm">Hier kun je ingeven wanneer je in het park bent</string>
+    <string name="BtnConfirm">Bevestigen</string>
+
+    <string-array name="DaysOfWeek">
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+        <item>Zondag</item>
+    </string-array>
+    <string-array name="Months">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maart</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Augustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="BtnLogout">Uitloggen</string>
+    <string name="BtnProfile">Profiel</string>
+    <string name="ProfileDesc">Welkom in je profiel</string>
+    <string name="SplashScreenImg">Cafe De Feestneus</string>
+    <string name="imgDesc" />
+    <string name="urlText">www.cafedefeestneus.nl</string>
+    <string name="BtnPrevMonth">&lt;</string>
+    <string name="BtnNextMonth">&gt;</string>
+    <string name="creditsText"><b>Concept</b>\n- Rik van Tuijl\n- Lennert Gijsen\n\n<b>Techniek</b>\n- Lennert Gijsen\n\n<b>Ontwerp</b>\n- Victor Coffa</string>
+    <string name="creditsTextOld">Concept: Rik van Tuijl\n\nOntwerp: Victor Coffa\n\nTechniek: Lennert Gijsen\n\nForum powered by Tapatalk</string>
+    <string name="creditsLnkText">Credits</string>
+    <string name="kjkWelcome">Welkom bij de Ken je Kroniek meeting. Jij bent team-leider (of naar eigen inzicht lijder). Klik op \"Uitleg\" voor meer informatie over hoe je dit spel speelt.</string>
+    <string name="KjkBtnExplain">Uitleg</string>
+    <string name="KjkBtnQuestion">Ik ben er!</string>
+    <string name="KjkUitlegText">Ga naar de locaties die cryptisch omschreven staan op de briefing.\nWanneer je aankomt op een locatie, druk dan op \"Ik ben er!\". Als je inderdaad bent waar je moet zijn, krijg je een vraag. Deze dien je te beantwoorden via de app. Hiervoor heb je een bepaalde tijd. Deze staat in een timer bij de vraag.</string>
+    <string name="kjkNoGPSFix">Wachten op GPS fix&#8230;</string>
+    <string name="questionAnswerTXT">Antwoord invullen:</string>
+    <string name="questionAnswerExpired">Deze vraag kun je niet meer beantwoorden. De tijd is verstreken.</string>
+    <string name="BtnAnswer">Opsturen</string>
+    <string name="kjk_answeredTXT">Je hebt deze vraag al beantwoord. Als je een nieuw antwoord instuurt vervangt dit het laatste antwoord.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>

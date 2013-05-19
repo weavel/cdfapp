@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+    	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/mainScroller"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+		android:background="@drawable/background"
+	    >
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:keepScreenOn="true"
+		    >
+
+			<ImageView
+			    android:id="@+id/imageView1"
+			    android:layout_width="300dp"
+			    android:layout_height="120dp"
+			    android:layout_gravity="center_horizontal"
+			    android:src="@drawable/jokie_logoklein"
+			    android:contentDescription="@string/imgDesc"
+				/>
+   
+			<TextView
+			    android:id="@+id/questionAnswered"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+				android:textColor="#444444"
+				android:layout_marginLeft="25dp"
+				android:layout_marginRight="25dp"
+				android:textStyle="bold"
+				android:text="@string/kjk_answeredTXT"
+				android:visibility="gone"
+			    />
+
+			<TextView
+			    android:id="@+id/questionTXT"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+				android:layout_margin="25dp"
+				android:textColor="#444444"
+			    />
+
+			<EditText
+			    android:id="@+id/answerText"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="10dp"
+			    android:inputType="textMultiLine">
+			    <requestFocus />
+			</EditText>
+
+			<Button
+				android:id="@+id/answerBtn"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+				android:text="@string/BtnAnswer"
+			    android:layout_margin="5dp"
+			    android:textColor="#444444"
+			    />
+
+			<TextView
+			    android:id="@+id/questionExpiredTXT"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+				android:layout_marginLeft="25dp"
+				android:layout_marginRight="25dp"
+				android:textStyle="bold"
+			    android:visibility="gone"
+			    android:text="@string/questionAnswerExpired"
+			    android:textColor="#444444">
+			</TextView>
+
+			<Button
+				android:id="@+id/backBtn"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+				android:text="@string/BtnBack"
+			    android:layout_margin="10dp"
+			    android:textColor="#444444"
+			    />
+
+		</LinearLayout>
+
+	</ScrollView>
